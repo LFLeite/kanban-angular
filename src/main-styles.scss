@@ -1,0 +1,23 @@
+// global styles and bulma variables
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:400,700|Lato:400,800,900');
+
+$family-sans-serif: 'Nunito', sans-serif;
+
+// Bulma variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Global styles
+html, body {
+    height: 100%;
+}
+
+html {
+    background-image: url('./assets/background.png');
+    background-size: cover;
+
+    overflow-y: auto !important;
+}
